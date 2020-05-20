@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A144994E2474CD8E00100B7C /* UIView+BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144994D2474CD8E00100B7C /* UIView+BlurEffect.swift */; };
+		A14499502474CF8D00100B7C /* GradientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144994F2474CF8D00100B7C /* GradientCell.swift */; };
+		A14499522474DA2E00100B7C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14499512474DA2E00100B7C /* DetailViewController.swift */; };
 		A161E2F92474B47F00B33090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2F82474B47F00B33090 /* AppDelegate.swift */; };
-		A161E2FB2474B47F00B33090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2FA2474B47F00B33090 /* SceneDelegate.swift */; };
 		A161E2FD2474B47F00B33090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2FC2474B47F00B33090 /* ViewController.swift */; };
 		A161E3002474B47F00B33090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A161E2FE2474B47F00B33090 /* Main.storyboard */; };
 		A161E3022474B48400B33090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A161E3012474B48400B33090 /* Assets.xcassets */; };
 		A161E3052474B48400B33090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A161E3032474B48400B33090 /* LaunchScreen.storyboard */; };
 		A161E3102474B48400B33090 /* GradientMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E30F2474B48400B33090 /* GradientMakerTests.swift */; };
+		A161E31B2474B71400B33090 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E31A2474B71400B33090 /* ListView.swift */; };
+		A161E31D2474B77E00B33090 /* UIVew+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E31C2474B77E00B33090 /* UIVew+Gradient.swift */; };
+		A161E31F2474B79E00B33090 /* UIColor+cgColor+HexConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E31E2474B79E00B33090 /* UIColor+cgColor+HexConverter.swift */; };
+		A161E3212474C37400B33090 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E3202474C37400B33090 /* StyleGuide.swift */; };
+		A161E3232474C71700B33090 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E3222474C71700B33090 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A144994D2474CD8E00100B7C /* UIView+BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+BlurEffect.swift"; sourceTree = "<group>"; };
+		A144994F2474CF8D00100B7C /* GradientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCell.swift; sourceTree = "<group>"; };
+		A14499512474DA2E00100B7C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A161E2F52474B47F00B33090 /* GradientMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A161E2F82474B47F00B33090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A161E2FA2474B47F00B33090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A161E2FC2474B47F00B33090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A161E2FF2474B47F00B33090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A161E3012474B48400B33090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +47,11 @@
 		A161E30B2474B48400B33090 /* GradientMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A161E30F2474B48400B33090 /* GradientMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientMakerTests.swift; sourceTree = "<group>"; };
 		A161E3112474B48400B33090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A161E31A2474B71400B33090 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A161E31C2474B77E00B33090 /* UIVew+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVew+Gradient.swift"; sourceTree = "<group>"; };
+		A161E31E2474B79E00B33090 /* UIColor+cgColor+HexConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+cgColor+HexConverter.swift"; sourceTree = "<group>"; };
+		A161E3202474C37400B33090 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		A161E3222474C71700B33090 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +94,16 @@
 			isa = PBXGroup;
 			children = (
 				A161E2F82474B47F00B33090 /* AppDelegate.swift */,
-				A161E2FA2474B47F00B33090 /* SceneDelegate.swift */,
-				A161E2FC2474B47F00B33090 /* ViewController.swift */,
 				A161E2FE2474B47F00B33090 /* Main.storyboard */,
 				A161E3012474B48400B33090 /* Assets.xcassets */,
 				A161E3032474B48400B33090 /* LaunchScreen.storyboard */,
 				A161E3062474B48400B33090 /* Info.plist */,
+				A161E2FC2474B47F00B33090 /* ViewController.swift */,
+				A14499512474DA2E00100B7C /* DetailViewController.swift */,
+				A144994F2474CF8D00100B7C /* GradientCell.swift */,
+				A161E31A2474B71400B33090 /* ListView.swift */,
+				A161E3222474C71700B33090 /* DetailView.swift */,
+				A161E3242474C8D300B33090 /* Components */,
 			);
 			path = GradientMaker;
 			sourceTree = "<group>";
@@ -97,6 +115,17 @@
 				A161E3112474B48400B33090 /* Info.plist */,
 			);
 			path = GradientMakerTests;
+			sourceTree = "<group>";
+		};
+		A161E3242474C8D300B33090 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A161E3202474C37400B33090 /* StyleGuide.swift */,
+				A161E31E2474B79E00B33090 /* UIColor+cgColor+HexConverter.swift */,
+				A161E31C2474B77E00B33090 /* UIVew+Gradient.swift */,
+				A144994D2474CD8E00100B7C /* UIView+BlurEffect.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A144994E2474CD8E00100B7C /* UIView+BlurEffect.swift in Sources */,
+				A161E31D2474B77E00B33090 /* UIVew+Gradient.swift in Sources */,
 				A161E2FD2474B47F00B33090 /* ViewController.swift in Sources */,
+				A161E3212474C37400B33090 /* StyleGuide.swift in Sources */,
+				A14499502474CF8D00100B7C /* GradientCell.swift in Sources */,
+				A161E3232474C71700B33090 /* DetailView.swift in Sources */,
 				A161E2F92474B47F00B33090 /* AppDelegate.swift in Sources */,
-				A161E2FB2474B47F00B33090 /* SceneDelegate.swift in Sources */,
+				A14499522474DA2E00100B7C /* DetailViewController.swift in Sources */,
+				A161E31B2474B71400B33090 /* ListView.swift in Sources */,
+				A161E31F2474B79E00B33090 /* UIColor+cgColor+HexConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

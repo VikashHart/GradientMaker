@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A161E2F92474B47F00B33090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2F82474B47F00B33090 /* AppDelegate.swift */; };
+		A161E2FB2474B47F00B33090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2FA2474B47F00B33090 /* SceneDelegate.swift */; };
+		A161E2FD2474B47F00B33090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E2FC2474B47F00B33090 /* ViewController.swift */; };
+		A161E3002474B47F00B33090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A161E2FE2474B47F00B33090 /* Main.storyboard */; };
+		A161E3022474B48400B33090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A161E3012474B48400B33090 /* Assets.xcassets */; };
+		A161E3052474B48400B33090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A161E3032474B48400B33090 /* LaunchScreen.storyboard */; };
+		A161E3102474B48400B33090 /* GradientMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161E30F2474B48400B33090 /* GradientMakerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A161E30C2474B48400B33090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A161E2ED2474B47F00B33090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A161E2F42474B47F00B33090;
+			remoteInfo = GradientMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A161E2F52474B47F00B33090 /* GradientMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A161E2F82474B47F00B33090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A161E2FA2474B47F00B33090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A161E2FC2474B47F00B33090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A161E2FF2474B47F00B33090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A161E3012474B48400B33090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A161E3042474B48400B33090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A161E3062474B48400B33090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A161E30B2474B48400B33090 /* GradientMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A161E30F2474B48400B33090 /* GradientMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientMakerTests.swift; sourceTree = "<group>"; };
+		A161E3112474B48400B33090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A161E2F22474B47F00B33090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A161E3082474B48400B33090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A161E2EC2474B47F00B33090 = {
+			isa = PBXGroup;
+			children = (
+				A161E2F72474B47F00B33090 /* GradientMaker */,
+				A161E30E2474B48400B33090 /* GradientMakerTests */,
+				A161E2F62474B47F00B33090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A161E2F62474B47F00B33090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A161E2F52474B47F00B33090 /* GradientMaker.app */,
+				A161E30B2474B48400B33090 /* GradientMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A161E2F72474B47F00B33090 /* GradientMaker */ = {
+			isa = PBXGroup;
+			children = (
+				A161E2F82474B47F00B33090 /* AppDelegate.swift */,
+				A161E2FA2474B47F00B33090 /* SceneDelegate.swift */,
+				A161E2FC2474B47F00B33090 /* ViewController.swift */,
+				A161E2FE2474B47F00B33090 /* Main.storyboard */,
+				A161E3012474B48400B33090 /* Assets.xcassets */,
+				A161E3032474B48400B33090 /* LaunchScreen.storyboard */,
+				A161E3062474B48400B33090 /* Info.plist */,
+			);
+			path = GradientMaker;
+			sourceTree = "<group>";
+		};
+		A161E30E2474B48400B33090 /* GradientMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A161E30F2474B48400B33090 /* GradientMakerTests.swift */,
+				A161E3112474B48400B33090 /* Info.plist */,
+			);
+			path = GradientMakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A161E2F42474B47F00B33090 /* GradientMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A161E3142474B48400B33090 /* Build configuration list for PBXNativeTarget "GradientMaker" */;
+			buildPhases = (
+				A161E2F12474B47F00B33090 /* Sources */,
+				A161E2F22474B47F00B33090 /* Frameworks */,
+				A161E2F32474B47F00B33090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientMaker;
+			productName = GradientMaker;
+			productReference = A161E2F52474B47F00B33090 /* GradientMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A161E30A2474B48400B33090 /* GradientMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A161E3172474B48400B33090 /* Build configuration list for PBXNativeTarget "GradientMakerTests" */;
+			buildPhases = (
+				A161E3072474B48400B33090 /* Sources */,
+				A161E3082474B48400B33090 /* Frameworks */,
+				A161E3092474B48400B33090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A161E30D2474B48400B33090 /* PBXTargetDependency */,
+			);
+			name = GradientMakerTests;
+			productName = GradientMakerTests;
+			productReference = A161E30B2474B48400B33090 /* GradientMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A161E2ED2474B47F00B33090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vikash Hart";
+				TargetAttributes = {
+					A161E2F42474B47F00B33090 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A161E30A2474B48400B33090 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A161E2F42474B47F00B33090;
+					};
+				};
+			};
+			buildConfigurationList = A161E2F02474B47F00B33090 /* Build configuration list for PBXProject "GradientMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A161E2EC2474B47F00B33090;
+			productRefGroup = A161E2F62474B47F00B33090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A161E2F42474B47F00B33090 /* GradientMaker */,
+				A161E30A2474B48400B33090 /* GradientMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A161E2F32474B47F00B33090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A161E3052474B48400B33090 /* LaunchScreen.storyboard in Resources */,
+				A161E3022474B48400B33090 /* Assets.xcassets in Resources */,
+				A161E3002474B47F00B33090 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A161E3092474B48400B33090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A161E2F12474B47F00B33090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A161E2FD2474B47F00B33090 /* ViewController.swift in Sources */,
+				A161E2F92474B47F00B33090 /* AppDelegate.swift in Sources */,
+				A161E2FB2474B47F00B33090 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A161E3072474B48400B33090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A161E3102474B48400B33090 /* GradientMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A161E30D2474B48400B33090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A161E2F42474B47F00B33090 /* GradientMaker */;
+			targetProxy = A161E30C2474B48400B33090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A161E2FE2474B47F00B33090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A161E2FF2474B47F00B33090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A161E3032474B48400B33090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A161E3042474B48400B33090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A161E3122474B48400B33090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A161E3132474B48400B33090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A161E3152474B48400B33090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63X7US2LVV;
+				INFOPLIST_FILE = GradientMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.GradientMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A161E3162474B48400B33090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63X7US2LVV;
+				INFOPLIST_FILE = GradientMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.GradientMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A161E3182474B48400B33090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63X7US2LVV;
+				INFOPLIST_FILE = GradientMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.GradientMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientMaker.app/GradientMaker";
+			};
+			name = Debug;
+		};
+		A161E3192474B48400B33090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63X7US2LVV;
+				INFOPLIST_FILE = GradientMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.GradientMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientMaker.app/GradientMaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A161E2F02474B47F00B33090 /* Build configuration list for PBXProject "GradientMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A161E3122474B48400B33090 /* Debug */,
+				A161E3132474B48400B33090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A161E3142474B48400B33090 /* Build configuration list for PBXNativeTarget "GradientMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A161E3152474B48400B33090 /* Debug */,
+				A161E3162474B48400B33090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A161E3172474B48400B33090 /* Build configuration list for PBXNativeTarget "GradientMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A161E3182474B48400B33090 /* Debug */,
+				A161E3192474B48400B33090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A161E2ED2474B47F00B33090 /* Project object */;
+}
